@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h1>Software Developer Job Application Form</h1>
+    </center>
+    <div>
+        <legend>Personal Information</legend>
+        <fieldset>
+        <form action="">
+        <div style="display: inline-block;width: fit-content;">
+            <label for="Full Name">Full Name:</label>
+            <input type="Full Name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="Number">Phone Number:</label>
+            <input type="Phone Number" id="Number" name="Number" required><br><br>
+        </div>
+    </fieldset>
+    <br><br>
+
+
+        <legend>Job Details</legend>
+        <fieldset>
+        <label for="text">Position Applied for:</label>
+        <input type="text"><br><br>
+        <div>
+        <label for="List">Years of Experience</label>
+        <input type="number" list="options" id="list" name="optionvalue"/>
+        <datalist id="options">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10></option>
+        </datalist>
+    </div><br><br>
+    <label for="notes">Technical Skills</label>
+    <input type="search" list="skills"  id="list" name="skills"/>
+    <datalist id="skillList">
+        <option value="C">C</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="Javascript">Javascript</option>
+        <option value="Html">Html</option>
+        <option value="DBMS">DBMS</option>
+        <option value="Sql">Sql</option>
+    </datalist>
+    <br><br>
+
+    <label for="text">Preferred Location</label>
+    <select id="Location" name="Location">
+        <option value="Hyderabad">Hyderabad</option>
+        <option value="Bangalore">Bangalore</option>
+        <option value="Pune">Pune</option>
+        <option value="Tamilnadu">Tamilnadu</option>
+    </select>
+    <br><br>
+
+    <label for="file">Upload Resume</label>
+    <input type="file" id="file" name="file"><br><br>
+    </fieldset><br>
+
+    <button>Submit Application</button>
+</body>
+</html>
